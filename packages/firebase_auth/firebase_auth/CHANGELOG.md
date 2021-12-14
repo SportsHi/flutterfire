@@ -694,7 +694,7 @@ Collections.unmodifiableList() and Collections.unmodifiableMap().
 ```gradle
 allprojects {
     repositories {
-        jcenter()
+        mavenCentral()
         maven {                              // NEW
             url "https://maven.google.com"   // NEW
         }                                    // NEW
