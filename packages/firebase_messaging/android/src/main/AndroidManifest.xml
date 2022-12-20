@@ -7,7 +7,7 @@
         <action android:name="com.google.firebase.MESSAGING_EVENT"/>
       </intent-filter>
     </service>
-    <service android:name="com.google.firebase.components.ComponentDiscoveryService" tools:replace="android:exported">
+    <service android:name="com.google.firebase.components.ComponentDiscoveryService" tools:replace="android:exported" android:exported="false">
       <meta-data android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
                  android:value="com.google.firebase.components.ComponentRegistrar" />
     </service>
